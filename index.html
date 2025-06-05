@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>แบบประเมินความพึงพอใจ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Prompt', sans-serif;
+            background: linear-gradient(to bottom right, #f9e0f0, #d0f0fd);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+        }
+        header {
+            background-color: #ffb6c1;
+            padding: 1em;
+            font-size: 1.5em;
+            font-weight: bold;
+            border-bottom: 5px dashed #fff;
+        }
+        .container {
+            margin: 40px auto;
+            max-width: 600px;
+        }
+        .nurse-img {
+            width: 180px;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        🩺 แบบประเมินความพึงพอใจหลังการรับคำปรึกษา
+    </header>
+    <div class="container">
+        <img class="nurse-img" src="nurse.png" alt="การ์ตูนพยาบาลน่ารัก">
+        <p>คลิกปุ่มด้านล่างเพื่อกรอกแบบประเมินผ่าน Google Form</p>
+        <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScyjBxxnJCkRPkxAhoztfjm9EgVFKlJmU6yGujA1lqxG-hVpg/viewform', '_blank')">
+            📋 คลิกเพื่อกรอกแบบประเมิน
+        </button>
+    </div>
+</body>
+</html>
